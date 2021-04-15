@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Amazon.com</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <a id="nav-top"></a>
+  <header>
+    <div id="nav-belt">
+      <div class="nav-left">
+        <div id="nav-logo">
+          <a href="#" class="nav-logo-link"></a>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div id="nav-holiday">
+          <a href="#"></a>
+        </div>
+      </div>
+      <div class="nav-fill">
+        <div id="nav-search">
+          <form>
+            <div class="nav-left">
+              <span class="nav-search-label">All</span>
+              <select id="nav-search-select">
+                <option selected="selected" value="aps">All Departments</option>
+                <option value="alexa-skills">Alexa Skills</option>
+                <option value="instant-video">Amazon Video</option>
+                <option value="warehouse-deals">Amazon Warehouse Deals</option>
+              </select>
+            </div>
+            <div class="nav-right">
+                            <img src="img/search_icon.png" height="35px" width="43px">
+            <input type="submit">
+            </div>
+            <div class="nav-fill">
+              <input type="text" autocomplete="off">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <nav id="nav-main">
+      <!-- <div class="nav-left">
+        <div class="nav-shop">
+          <a class="nav-a" href="#">
+            Departments           
+          </a>
+        </div>
+      </div> -->
+      <div class="nav-right">
+        <a class="nav-a" href="#">
+          <span>Hello. Sign in</span>
+          Accounts &amp; Lists
+        </a>
+
+        <a class="nav-a" href="#">
+          Orders
+        </a>
+
+        <a class="nav-a" href="#">
+          Try Prime
+        </a>
+
+        <a class="nav-a cart" href="#">
+          <span>0</span>
+          Cart
+        </a>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li><a href="#">Mobiles</a></li>
+          <li><a href="#">Today's Deals</a></li>
+          <li><a href="#">Fashion</a></li>
+          <li><a href="#">New Releases</a></li>
+          <li><a href="#">Electronics</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="img/slide_1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/slide_2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/slide_3.jpg" style="width:100%">
+    </div>
+  </div>
+  <div id="nav-home" class="product row">
+
+    <button class="back-icon" onclick="displayProduct(false)">
+      <img src="img/back_icon.png" height="18px">
+    </button>
+
+    <div class="left-col">
+      <img src="img/fridge.jpg" alt="Product 1" width="200" height="500">
+    </div>
+    <div class="center-col ">
+      <span class="product-title"> Samsung 198 L 5 Star Inverter Direct-Cool Single Door Refrigerator (RR21T2H2WCB/HL,
+        Camellia Black, Base
+        Stand
+        with Drawer)
+      </span>
+      <div class="a-section">
+        <a class="a-link-normal" href="#">Visit the Samsung Store</a>
+      </div>
+      <hr class="divider" />
+      <div class="price-div">
+        <div class="secondary-color m-10"><label style="padding-left:1.5em;">M.R.P.:</label> <strike>₹
+            20,990.00</strike></div>
+        <div class="m-10"><label class="secondary-color" style="padding-left:2em;">Price:</label> <span
+            class="price font-medium">₹ 17,490.00</span></div>
+        <div class="m-10"><label class="secondary-color">You Save: </label><span class="price font-medium"> ₹ 3,500.00
+            (17%)</span></div>
+        <div class="m-10"><label><b>EMI</b> starts at ₹823. No Cost EMI available</label></div>
+
+      </div>
+      <hr class="divider" />
+      <div class="availability-div">
+        <span style="color:#007600" class="font-medium">In stock</span>
+        <div class="mx-1"><label> Sold by <a href="#">Cloudtail India</a> and <a href="#">Fulfilled by
+              Amazon.</a></label></div>
+        <div class="mx-1"><label class="secondary-color"> Style name:</label><b> Camellia Black - With Base Stand
+            Drawer</b></div>
+        <div class="mx-1"><b style="line-height: 1.5;">This product comes ready to use & does not require
+            installation.</b><a href="#"> Details</a></div>
+        <!-- This product comes ready to use & does not require installation. Details -->
+      </div>
+      <hr class="divider" />
+      <div class="feature-div">
+        <ul class="ul-list">
+          <li><span>This product comes ready to use & does not require installation. Details</span></li>
+          <li><span>Capacity 198 liters: Suitable for families with 2 to 3 members and bachelors</span></li>
+          <li><span>Energy rating 5 Star : high efficiency model</span></li>
+        </ul>
+      </div>
+      <hr class="divider" />
+    </div>
+
+    <div class="right-col">
+      <div class="share-div">
+        <a href="#" style="padding-right: .5em;">Share </a>
+        <!-- <a class="share-email" src="img/email.png" height="18px"></a>
+        <a class="share-fb" src="img/facebook.jpg" height="20px"></a>
+        <a class="share-twitter" src="img/twitter.jpg" height="20px"></a>
+        <a class="share-pinterest" src="img/pinterest.png" height="20px"></a> -->
+        <a href="#" ><img src="img/email.png" height="18px"></a>
+        <a  href="#"><img src="img/facebook.jpg" height="20px"></a>
+        <a  href="#"><img src="img/twitter.jpg" height="20px"></a>
+        <a  href="#"><img src="img/pinterest.png" height="20px"></a>
+      </div>
+      <div class="buy-box" style="text-align: unset;">
+        <div class="container">
+          <div style="margin-bottom: 1.5em;">
+            <label for="warranty3"> Quantity:
+              <select name="qty" id="qty">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+          </div>
+
+          <button class="a-button" style="background-color: #f0c14b;" onclick="addtoCart()">Add to Cart</button>
+          <button class="a-button" style="background-color: #f0c14b;" onclick="buyNow()">Buy Now</button>
+          <div style="margin-bottom: 1em;"><img
+              src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/checkout/truespc/secured-ssl._CB485936932_.png"
+              height="14px" class="pl-1"><a class="pl-1" href="#">Secure Transaction</a>
+          </div>
+          <div><img src="https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png" height="14px" class="pl-1"><a
+              class="pl-1" href="#">Select delivery location</a>
+          </div>
+        </div>
+        <hr class="divider" />
+        <button class="a-button" style="background-color:white;" onclick="buyNow()">Add to Wishlist</button>
+      </div>
+    </div>
+  </div>
+  <div id="product_section">
+    <div class="product-list row">
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h4><b>Home</b></h4>
+          </div>
+          <div class="container">
+            <img src="img/fridge1.jpg" alt="Product 1" style="width:100%">
+          </div>
+          <div class="card-footer">
+            <a  onclick="displayProduct(true)">More</a>
+            <!-- onclick="displayProduct()" -->
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h4><b>Bluetooth</b></h4>
+          </div>
+          <div class="container">
+            <img src="img/product_2.jpg" alt="Product 1" style="width:100%">
+          </div>
+          <div class="card-footer">
+            <a href="#">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h4><b>Pets</b></h4>
+            <!-- <p>Architect & Engineer</p> -->
+          </div>
+          <div class="container">
+            <img src="img/product_3.jpg" alt="Product 1" style="width:100%">
+          </div>
+          <div class="card-footer">
+            <!-- <h4><b>More</b></h4> -->
+            <a href="#">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h4><b>Dress</b></h4>
+          </div>
+          <div class="container">
+            <img src="img/product_1.jpg" alt="Product 1" style="width:100%">
+          </div>
+
+          <div class="card-footer">
+            <a href="#">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="top text-center">
+      <a href="#nav-top">Back to top</a>
+    </div>
+
+    <div class="middle">
+      <div class="center">
+        <ul>
+          <li>
+            <h3>Get to Know Us</h3>
+          </li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About Amazon</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Amazon Devices</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Make Money with Us</h3>
+          </li>
+          <li><a href="#">Sell on Amazon</a></li>
+          <li><a href="#">Sell Your Services on Amazon</a></li>
+          <li><a href="#">Sell on Amazon Business</a></li>
+          <li><a href="#">Sell Your Apps on Amazon</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">Advertise Your Products</a></li>
+          <li><a href="#">Self-Publish with Us</a></li>
+          <li><a href="#">Become an Amazon Vendor</a></li>
+          <li><a href="#">Sell Your Subscription on Amazon</a></li>
+          <li><a href="#">› See all</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Amazon Payment Products</h3>
+          </li>
+          <li><a href="#">Amazon Rewards Visa Signature Cards</a></li>
+          <li><a href="#">Amazon.com Store Card</a></li>
+          <li><a href="#">Amazon.com Corporate Credit Line</a></li>
+          <li><a href="#">Shop with Points</a></li>
+          <li><a href="#">Credit Card Marketplace</a></li>
+          <li><a href="#">Reload Your Balance</a></li>
+          <li><a href="#">Amazon Currency Converter</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Let Us Help You</h3>
+          </li>
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Your Orders</a></li>
+          <li><a href="#">Shipping Rates &amp; Policies</a></li>
+          <li><a href="#">Amazon Prime</a></li>
+          <li><a href="#">Returns &amp; Replacements</a></li>
+          <li><a href="#">Manage Your Content and Devices</a></li>
+          <li><a href="#">Amazon Assistant</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+
+      <ul class="copy text-center">
+        <li><a href="#" class="logo"></a></li>
+        <li><a href="#" class="select"> English</a></li>
+        <li><a href="#" class="select">United States</a></li>
+      </ul>
+    </div>
+
+    <div class="bottom">
+      <div class="center">
+        <ul>
+          <li><a href="#">Amazon Music<br /><span>Stream millions<br> of songs</span></a></li>
+          <li><a href="#">AmazonFresh<br /><span>Groceries &amp; More<br> Right To Your Door</span></a></li>
+          <li><a href="#">Amazon Web Services<br /><span>Scalable Cloud<br> Computing Services</span></a></li>
+          <li><a href="#">East Dane<br /><span>Designer Men's<br> Fashion</span></a></li>
+          <li><a href="#">Prime Now<br /><span>FREE 2-Hour Delivery<br> on Everyday Items</span></a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">Amazon Drive<br /><span>Cloud storage<br> from Amazon</span></a></li>
+          <li><a href="#">AmazonGlobal<br /><span>Ship Orders<br> Internationally</span></a></li>
+          <li><a href="#">Audible<br /><span>Download<br> Audio Books</span></a></li>
+          <li><a href="#">Fabric<br /><span>Sewing, Quilting<br> &amp; Knitting</span></a></li>
+          <li><a href="#">Prime Photos<br /><span>Unlimited Photo Storage<br> Free With Prime</span></a></li>
+          <li><a href="#">Woot!<br /><span>Deals and <br> Shenanigans</span></a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">6pm<br /><span>Score deals<br> on fashion brands</span></a></li>
+          <li><a href="#">Home Services<br /><span>Handpicked Pros<br> Happiness Guarantee</span></a></li>
+          <li><a href="#">Book Depository<br /><span>Books With Free<br> Delivery Worldwide</span></a></li>
+          <li><a href="#">Goodreads<br /><span>Book reviews<br> &amp; recommendations</span></a></li>
+          <li><a href="#">Shopbop<br /><span>Designer<br> Fashion Brands</span></a></li>
+          <li><a href="#">Zappos<br /><span>Shoes &amp;<br> Clothing</span></a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">AbeBooks<br /><span>Books, art<br> &amp; collectibles</span></a></li>
+          <li><a href="#">Amazon Inspire<br /><span>Free Digital Educational<br> Resources</span></a></li>
+          <li><a href="#">Box Office Mojo<br /><span>Find Movie<br> Box Office Data</span></a></li>
+          <li><a href="#">IMDb<br /><span>Movies, TV<br> &amp; Celebrities</span></a></li>
+          <li><a href="#">TenMarks.com<br /><span>Math Activities<br> for Kids &amp; Schools</span></a></li>
+          <li><a href="#">Souq.com<br /><span>Shop Online in<br> the Middle East</span></a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">ACX <br /><span>Audiobook Publishing<br> Made Easy</span></a></li>
+          <li><a href="#">Amazon Rapids<br /><span>Fun stories for<br> kids on the go</span></a></li>
+          <li><a href="#">ComiXology<br /><span>Thousands of<br> Digital Comics</span></a></li>
+          <li><a href="#">IMDbPro<br /><span>Get Info Entertainment<br> Professionals Need</span></a></li>
+          <li><a href="#">Warehouse Deals<br /><span>Open-Box<br> Discounts</span></a></li>
+          <li><a href="#">Subscribe with Amazon<br /><span>Discover &amp; try<br> subscription services</span></a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">Alexa<br /><span>Actionable Analytics<br> for the Web</span></a></li>
+          <li><a href="#">Amazon Restaurants<br /><span>Food delivery from<br> local restaurants</span></a></li>
+          <li><a href="#">CreateSpace<br /><span>Indie Print Publishing<br> Made Easy</span></a></li>
+          <li><a href="#">Junglee.com<br /><span>Shop Online<br> in India</span></a></li>
+          <li><a href="#">Whispercast<br /><span>Discover &amp; Distribute<br> Digital Content</span></a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">Amazon Business<br /><span>Everything For<br> Your Business</span></a></li>
+          <li><a href="#">Amazon Video Direct<br /><span>Video Distribution<br> Made Easy</span></a></li>
+          <li><a href="#">DPReview<br /><span>Digital<br> Photography</span></a></li>
+          <li><a href="#">Kindle Direct Publishing<br /><span>Indie Digital Publishing<br> Made Easy</span></a></li>
+          <li><a href="#">Withoutabox<br /><span>Submit to<br> Film Festivals</span></a></li>
+        </ul>
+
+        <ul class="copy text-center">
+          <li><a href="#">Conditions of Use</a></li>
+          <li><a href="#">Privacy Notice</a></li>
+          <li><a href="#">Interest-Based Ads</a></li>
+          <li>&copy; 1996-2017, Amazon.com, Inc. or its affiliates</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="js/app.js"></script>
+
+</html>
