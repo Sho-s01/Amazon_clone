@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Amazon.com</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -13,38 +13,58 @@
   <a id="nav-top"></a>
   <header>
     <div id="nav-belt">
-      <div class="nav-left">
-        <div id="nav-logo">
-          <a href="#" class="nav-logo-link"></a>
-        </div>
-      </div>
-      <div class="nav-right">
-        <div id="nav-holiday">
-          <a href="#"></a>
-        </div>
-      </div>
+
       <div class="nav-fill">
-        <div id="nav-search">
-          <form>
-            <div class="nav-left">
-              <span class="nav-search-label">All</span>
-              <select id="nav-search-select">
-                <option selected="selected" value="aps">All Departments</option>
-                <option value="alexa-skills">Alexa Skills</option>
-                <option value="instant-video">Amazon Video</option>
-                <option value="warehouse-deals">Amazon Warehouse Deals</option>
-              </select>
+        <div class="left-block">
+          <div class="nav-left">
+            <div id="nav-logo">
+              <a href="#" class="nav-logo-link"></a>
             </div>
-            <div class="nav-right">
-                            <img src="img/search_icon.png" height="35px" width="43px">
-            <input type="submit">
-            </div>
-            <div class="nav-fill">
-              <input type="text" autocomplete="off">
-            </div>
-          </form>
+          </div>
+          <div id="nav-search">
+            <form>
+              <div class="nav-left">
+                <span class="nav-search-label">All</span>
+                <select id="nav-search-select">
+                  <option selected="selected" value="aps">All Departments</option>
+                  <option value="alexa-skills">Alexa Skills</option>
+                  <option value="instant-video">Amazon Video</option>
+                  <option value="warehouse-deals">Amazon Warehouse Deals</option>
+                </select>
+              </div>
+              <div class="nav-right">
+                <img src="img/search_icon.png" height="35px" width="43px">
+                <input type="submit">
+              </div>
+              <div class="nav-fill">
+                <input type="text" autocomplete="off">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="nav-main">
+          <div class="nav-right">
+            <a class="nav-a" href="#">
+              <span>Hello. Sign in</span>
+              Accounts &amp; Lists
+            </a>
+
+            <a class="nav-a" href="#">
+              Orders
+            </a>
+
+            <a class="nav-a" href="#">
+              Try Prime
+            </a>
+
+            <a class="nav-a cart" href="#">
+              <span>0</span>
+              Cart
+            </a>
+          </div>
         </div>
       </div>
+
     </div>
 
     <nav id="nav-main">
@@ -55,25 +75,7 @@
           </a>
         </div>
       </div> -->
-      <div class="nav-right">
-        <a class="nav-a" href="#">
-          <span>Hello. Sign in</span>
-          Accounts &amp; Lists
-        </a>
 
-        <a class="nav-a" href="#">
-          Orders
-        </a>
-
-        <a class="nav-a" href="#">
-          Try Prime
-        </a>
-
-        <a class="nav-a cart" href="#">
-          <span>0</span>
-          Cart
-        </a>
-      </div>
       <div class="nav-list">
         <ul>
           <li><a href="#">Mobiles</a></li>
@@ -85,6 +87,7 @@
       </div>
     </nav>
   </header>
+
   <div class="slideshow-container">
     <div class="mySlides fade">
       <img src="img/slide_1.jpg" style="width:100%">
@@ -154,10 +157,10 @@
         <a class="share-fb" src="img/facebook.jpg" height="20px"></a>
         <a class="share-twitter" src="img/twitter.jpg" height="20px"></a>
         <a class="share-pinterest" src="img/pinterest.png" height="20px"></a> -->
-        <a href="#" ><img src="img/email.png" height="18px"></a>
-        <a  href="#"><img src="img/facebook.jpg" height="20px"></a>
-        <a  href="#"><img src="img/twitter.jpg" height="20px"></a>
-        <a  href="#"><img src="img/pinterest.png" height="20px"></a>
+        <a href="#"><img src="img/email.png" height="18px"></a>
+        <a href="#"><img src="img/facebook.jpg" height="20px"></a>
+        <a href="#"><img src="img/twitter.jpg" height="20px"></a>
+        <a href="#"><img src="img/pinterest.png" height="20px"></a>
       </div>
       <div class="buy-box" style="text-align: unset;">
         <div class="container">
@@ -197,7 +200,7 @@
             <img src="img/fridge1.jpg" alt="Product 1" style="width:100%">
           </div>
           <div class="card-footer">
-            <a  onclick="displayProduct(true)">More</a>
+            <a onclick="displayProduct(true)">More</a>
             <!-- onclick="displayProduct()" -->
           </div>
         </div>
